@@ -42,7 +42,7 @@ if (pli->ddef->nenvelopes == 0) return eslOK;
 
 # command ExonMatchSolver:
 
-perl ExonMatchSolver5_fasta_4_0_0.pl -i [input paralog file] -o [output file] -mode fasta -target [target genome] -paraMax [number] -query [query genome]
+perl ExonMatchSolver5.pl -i [input paralog file] -o [output file] -mode fasta -target [target genome] -paraMax [number] -query [query genome]
 
 
 
